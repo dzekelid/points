@@ -9,11 +9,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Points
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/bc-geographical-names/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Geo Mark Web Service - Gets a single spatial point representative of the geomark.
+  x-api-slug: geomarksgeomarkidpoint-fileformatextension-get
+  description: The geomark point resource returns a single spatial feature with a
+    single Point and the geomark attribution.  The point geometry will be created
+    from the first geometry part of the Geomark. Point geomarks will return the first
+    Point part in the geomark.  LineString geomarks will return the first coordinate
+    of the first LineString part in the geomark. Polygon geomarks will return the
+    centroid or another point inside the first Polygon part in the geomark. The geometry
+    and attribution can be downloaded as a spatial download file format in a supported
+    coordinate system. The download files can then be used in a desktop GIS application
+    (e.g. ArcMap), Google Earth or a web mapping application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/geomark
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/bc-geographical-names/geomarksgeomarkidpoint-fileformatextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/bc-geographical-names/geomarksgeomarkidpoint-fileformatextension-get-openapi.md
 - name: Geo Mark Web Service - Gets a single spatial point representative of the geomark.
   x-api-slug: geomarksgeomarkidpoint-fileformatextension-get
   description: The geomark point resource returns a single spatial feature with a

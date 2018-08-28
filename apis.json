@@ -1,0 +1,299 @@
+{
+	"name": "Streadata.io API Gallery - Points",
+	"description": "This is a repository of points APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/points.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://points.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "ConvertAPI",
+			"x-api-slug": "convertapi",
+			"description": "Create PDF easily with our developers API/SDK for Ruby Java .NET C# PHP Shell Delphi.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg",
+			"humanURL": "http://www.convertapi.com/",
+			"baseURL": "https://do.convertapi.com//",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/convertapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"x-api-slug": "national-renewable-energy-laboratory",
+			"description": "The National Renewable Energy Laboratory (NREL) is the nations primary laboratory for renewable energy and energy efficiency research and development (R&D).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg",
+			"humanURL": "http://nrel.gov",
+			"baseURL": "https://developer.nrel.gov//api/transportation-incentives-laws",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/national-renewable-energy-laboratory/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Digital River",
+			"x-api-slug": "digital-river",
+			"description": "Digital Riveris a public company that provides global ecommerce, payments and marketing services. In 2013, Digital River processed more than $30 billion in online transactions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png",
+			"humanURL": "https://digitalriver.com",
+			"baseURL": "https://store.digitalriver.com//store/{mysite}",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/digital-river/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Science Framework",
+			"x-api-slug": "open-science-framework",
+			"description": "OSF provides free and open source project management support for researchers across the entire research lifecycle. As a collaboration tool, OSF helps researchers work on projects privately with a limited number of collaborators and make parts of their projects public, or make all the project publicly accessible for broader dissemination. As a workflow system, OSF enables connections to the many services researchers already use to streamline their process and increase efficiency. As a flexible repository, it can store and archive research data, protocols, and materials.",
+			"image": "",
+			"humanURL": "https://cos.io",
+			"baseURL": "https://test-api.osf.io//v2",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/open-science-framework/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BC Geographical Names",
+			"x-api-slug": "bc-geographical-names",
+			"description": "Geographical names are more than labels on maps and road signs. They can reveal patterns of settlement, exploration and migration, and mirror outside influences to our history - aspects of the heritage and promise of an area that might otherwise be overlooked or forgotten by visitors and later generations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png",
+			"humanURL": "https://apps.gov.bc.ca/pub/bcgnws/",
+			"baseURL": "https://apps.gov.bc.ca//pub/geomark",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/bc-geographical-names/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Points",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Points",
+	"include": [
+		{
+			"name": "ConvertAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/convertapi/apis.yaml"
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/national-renewable-energy-laboratory/apis.yaml"
+		},
+		{
+			"name": "Digital River",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/digital-river/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Open Science Framework",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/open-science-framework/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "BC Geographical Names",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/bc-geographical-names/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

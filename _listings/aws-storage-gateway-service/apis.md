@@ -15,11 +15,87 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Points
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Storage Gateway Service API - Describe Tape Recovery Points
+  x-api-slug: actiondescribetaperecoverypoints-get
+  description: |-
+    Returns a list of virtual tape recovery points that are available for the specified
+             gateway-VTL.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actiondescribetaperecoverypoints-get-openapi.md
+- name: AWS Storage Gateway Service API - List Volume Recovery Points
+  x-api-slug: actionlistvolumerecoverypoints-get
+  description: Lists the recovery points for a specified gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actionlistvolumerecoverypoints-get-openapi.md
+- name: AWS Storage Gateway Service API - Create Snapshot From Volume Recovery Point
+  x-api-slug: actioncreatesnapshotfromvolumerecoverypoint-get
+  description: Initiates a snapshot of a gateway from a volume recovery point.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actioncreatesnapshotfromvolumerecoverypoint-get-openapi.md
+- name: AWS Storage Gateway Service API - Describe Tape Recovery Points
+  x-api-slug: actiondescribetaperecoverypoints-get
+  description: |-
+    Returns a list of virtual tape recovery points that are available for the specified
+             gateway-VTL.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actiondescribetaperecoverypoints-get-openapi.md
+- name: AWS Storage Gateway Service API - List Volume Recovery Points
+  x-api-slug: actionlistvolumerecoverypoints-get
+  description: Lists the recovery points for a specified gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actionlistvolumerecoverypoints-get-openapi.md
+- name: AWS Storage Gateway Service API - Retrieve Tape Recovery Point
+  x-api-slug: actionretrievetaperecoverypoint-get
+  description: Retrieves the recovery point for the specified virtual tape.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/aws-storage-gateway-service/actionretrievetaperecoverypoint-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.step.functions.api.gallery.streamdata.io

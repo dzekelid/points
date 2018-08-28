@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here
 x-kinRank: "7"
 x-alexaRank: "3011"
 tags: Points
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/apis.md
 specificationVersion: "0.14"
 apis:
@@ -36,6 +36,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/maptilenewestnormal-day161874325072256png8-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/maptilenewestnormal-day161874325072256png8-get-openapi.md
+- name: Map Tile API - Point of Interest Categories
+  x-api-slug: metapois-get
+  description: "*Request point of interest category information*\n\nTo make a request
+    for point-of-interest information, use `meta/pois` in the path of the request
+    URL.\n  \n\n\n\n* **output**  `enum`\n \\- A 20 byte Base64 URL-safe encoded string
+    used for the authentication of the client application.    You must include an
+    `app_id` with every request.\n\n Valid values are : `json`, `text`\n\n* **app_id**
+    \ `text`\n \\- A 20 byte Base64 URL-safe encoded string used for the authentication
+    of the client application.    You must include an `app_id` with every request..
+    \ \n\n* **app_code**  `text`\n \\- A 20 byte Base64 URL-safe encoded string used
+    for the authentication of the client application.    You must include an `app_code`
+    with every request."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://1.aerial.maps.cit.api.here.com//maptile/2.1/maptile/newest
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/metapois-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/here/metapois-get-openapi.md
 - name: Map Tile API - Point of Interest Categories
   x-api-slug: metapois-get
   description: "*Request point of interest category information*\n\nTo make a request

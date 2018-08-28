@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-
 x-kinRank: "7"
 x-alexaRank: "359677"
 tags: Points
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/apis.md
 specificationVersion: "0.14"
 apis:
@@ -103,6 +103,49 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/poipoint-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/poipoint-get-openapi.md
+- name: Attom Data Solutions API - Returns POIs based on point.
+  x-api-slug: poipoint-get
+  description: This search returns a list of POI in proximity to a latitude/longitude.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg
+  humanURL: https://api.developer.attomdata.com
+  baseURL: https://search.onboard-apis.com//communityapi/v2.0.0
+  tags: SaaS, Technology, Enterprise, Real Estate, Places, Schools, Properties, General
+    Data, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/poipoint-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/poipoint-get-openapi.md
+- name: Attom Data Solutions API - Returns all boundaries a point falls within.
+  x-api-slug: hierarchylookup-get
+  description: This method allows you to pass a latitude and longitude point and geo
+    type to retrieve a list of geographies that point falls within. Required input
+    is a valid WKT (Well Known Text) point.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg
+  humanURL: https://api.developer.attomdata.com
+  baseURL: https://search.onboard-apis.com//communityapi/v2.0.0
+  tags: SaaS, Technology, Enterprise, Real Estate, Places, Schools, Properties, General
+    Data, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/hierarchylookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/hierarchylookup-get-openapi.md
+- name: Attom Data Solutions API - Return all schools within a defined radius from
+    a point.
+  x-api-slug: schoolsnapshot-get
+  description: Search for all schools that are located within a given radius around
+    a given latitude and longitude.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg
+  humanURL: https://api.developer.attomdata.com
+  baseURL: https://search.onboard-apis.com//communityapi/v2.0.0
+  tags: SaaS, Technology, Enterprise, Real Estate, Places, Schools, Properties, General
+    Data, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/schoolsnapshot-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/points/master/_listings/attom/schoolsnapshot-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://api.developer.attomdata.com/swagger/spec/propertyapi_property.json
